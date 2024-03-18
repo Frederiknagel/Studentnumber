@@ -45,13 +45,13 @@ public class Main {
 
    
 
-    /*private static void shiftArray(String[] array, int index) {
+    private static void shiftArray(String[] array, int index) {
         //shifts array 1 index to the left
         for(int i = index-1; i < array.length-1; i++){
             array[i] = array[i+1];
         }
-    *}
-    */
+    }
+
 
     public static int countTasks() {
         //loads to-do list, counts and then return number of lines
