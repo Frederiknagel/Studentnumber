@@ -1,4 +1,5 @@
 import java.util.*;
+import java.io.*;
 public class Main {
     public static void main(String[] args) {
         Menu();
@@ -21,6 +22,14 @@ public class Main {
             case 4:
 
             break;
+        }
+    }
+    public static void writeTofile(String [] studentList) {
+        try {
+            PrintStream output = new PrintStream(new File("studentList.txt"));
+            output.print
+        } catch(Exception inputMismatch) {
+
         }
     }
 
